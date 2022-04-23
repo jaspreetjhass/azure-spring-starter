@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: azure-starter
+    
+server:
+  port: 8443
+  ssl:    key-store: classpath:azure-spring-starter.p12
+    key-store-password: 123456
+    key-store-type: PKCS12
