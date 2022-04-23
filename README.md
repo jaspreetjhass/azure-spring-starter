@@ -7,8 +7,8 @@ keytool -genkeypair -keyalg RSA -keysize 2048 -storetype PKCS12 -keystore file_n
 
 # SSL
 server.port=8443 <br />
-server.ssl.key-store=classpath:mkyong.p12
-server.ssl.key-store-password=123456
+server.ssl.key-store=classpath:mkyong.p12 <br />
+server.ssl.key-store-password=123456 <br />
 
 # PKCS12 or JKS
 server.ssl.keyStoreType=PKCS12
